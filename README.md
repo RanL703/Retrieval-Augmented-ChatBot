@@ -29,17 +29,20 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
 1. Clone the repository:
      ```bash
      git clone https://github.com/yourusername/retrieval-chatbot.git
-     cd retrieval-chatbot```
+     cd retrieval-chatbot
+     ```
      
 2. Install the required dependencies:
      ```bash
-     pip install -r requirements.txt```
+     pip install -r requirements.txt
+     ```
    
 3. Download the necessary NLTK data files(though included in code):
      ```bash
      import nltk
      nltk.download('punkt')
-     nltk.download('stopwords')```
+     nltk.download('stopwords')
+     ```
    
 4. Install Ollama:
 
@@ -52,14 +55,17 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
     - For Linux:
       Use the following commands:
    ```bash
-   curl -s https://ollama.com/download.sh```
-  More info on the [Ollama GitHub](https://github.com/ollama/ollama).
+   curl -s https://ollama.com/download.sh
+   ```
+   More info on the [Ollama GitHub](https://github.com/ollama/ollama).
   
 5. Install Llama3.1 through Ollama:
      Llama3.1 is one of many language models that can be run using Ollama. To install Llama3.1:
      ```bash
-        ollama pull llama3.1```
-  This command downloads and installs the Llama3.1 model for use with Ollama. You can find more details in the [Official Ollama Documentation for Llama3.1]((https://ollama.com/library/llama3.1)).
+        ollama pull llama3.1
+     ```
+     This command downloads and installs the Llama3.1 model for use with Ollama. You can find more details in the [Official Ollama Documentation for Llama3.1](https://ollama.com/library/llama3.1).
+  
 7. Ensure your API is running locally on 'localhost:11434'. Adjust the API endpoint URL in the script if necessary.
 
 8. Place your corpus text file (new_data.txt) in the project directory.
@@ -67,7 +73,9 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
 ## Running the Chatbot
 
 To start the chatbot, execute the following command:
-`python main.py`
+```bash
+python main.py
+```
 This will launch a Gradio interface in your default web browser. You can enter prompts, and the chatbot will process your input, retrieve relevant information, and generate responses using the combined power of SentenceTransformers for information retrieval and Ollama for natural language generation.
 
 ## Screenshots
