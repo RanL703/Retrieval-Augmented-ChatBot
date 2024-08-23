@@ -55,11 +55,11 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
    curl -s https://ollama.com/download.sh```
   More info on the [Ollama GitHub](https://github.com/ollama/ollama).
   
-5. Install Mistral through Ollama:
-     Mistral is a language model that can be run using Ollama. To install Mistral:
+5. Install Llama3.1 through Ollama:
+     Llama3.1 is one of many language models that can be run using Ollama. To install Llama3.1:
      ```bash
-        ollama pull mistral```
-  This command downloads and installs the Mistral model for use with Ollama. You can find more details in the [Official Ollama Documentation for Mistral](https://ollama.com/library/mistral).
+        ollama pull llama3.1```
+  This command downloads and installs the Llama3.1 model for use with Ollama. You can find more details in the [Official Ollama Documentation for Llama3.1]((https://ollama.com/library/llama3.1)).
 7. Ensure your API is running locally on 'localhost:11434'. Adjust the API endpoint URL in the script if necessary.
 
 8. Place your corpus text file (new_data.txt) in the project directory.
@@ -72,7 +72,12 @@ This will launch a Gradio interface in your default web browser. You can enter p
 
 ## Screenshots
 
-(Include screenshots here to showcase the chatbot in action.)
+![firefox_wll2MD8hAG](https://github.com/user-attachments/assets/43994a6d-faf1-4413-9f5f-2b4e5b0b4eeb)
+![firefox_hdOrraRZfc](https://github.com/user-attachments/assets/5dccf106-007e-444e-b0a7-02780d8b4712)
+![firefox_oBo3ZbjrIp](https://github.com/user-attachments/assets/d0d4d67c-40b9-462c-a62a-231fb5de9e18)
+![firefox_ARJ5F0NQqN](https://github.com/user-attachments/assets/7d64e9df-f8e9-4fa5-8473-ea6a7a916c85)
+![firefox_ITBV3nuJeJ](https://github.com/user-attachments/assets/93ef9499-962c-45ba-a99b-9c9f412a1485)
+![firefox_aswdCZCcRC](https://github.com/user-attachments/assets/dc980c83-2569-40be-8726-8126e1ed14d1)
 
 ## License
 
