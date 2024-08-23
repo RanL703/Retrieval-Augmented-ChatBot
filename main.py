@@ -73,7 +73,7 @@ def generate_response(prompt):
     full_prompt = "\n".join(conversation_history)
 
     data = {
-        "model": "mistral",
+        "model": "llama3.1",
         "stream": False,
         "prompt": full_prompt,
     }
