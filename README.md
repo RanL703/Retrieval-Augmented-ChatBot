@@ -16,7 +16,7 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.7 or higher(created on Python 3.11.9)
 - Gradio
 - NLTK
 - SentenceTransformers
