@@ -1,7 +1,5 @@
 # Retrieval-Augmented Chatbot
 
-[Live Demo](#) *(Placeholder for your live demo link)*
-
 ## Overview
 
 This project is a simple yet powerful chatbot that leverages **Gradio** for the user interface, **NLTK** for natural language processing, **SentenceTransformers** for retrieval-based information extraction, and **Ollama** for advanced language model integration. It interacts with a locally hosted API to generate responses, making it suitable for various use cases such as information retrieval, conversational AI, and more.
@@ -59,11 +57,12 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
   
 5. Install Mistral through Ollama:
      Mistral is a language model that can be run using Ollama. To install Mistral:
-     ```ollama pull mistral```
-     This command downloads and installs the Mistral model for use with Ollama. You can find more details in the [Official Ollama Documentation for Mistral](https://ollama.com/library/mistral).
-6. Ensure your API is running locally on 'localhost:11434'. Adjust the API endpoint URL in the script if necessary.
+     ```bash
+        ollama pull mistral```
+  This command downloads and installs the Mistral model for use with Ollama. You can find more details in the [Official Ollama Documentation for Mistral](https://ollama.com/library/mistral).
+7. Ensure your API is running locally on 'localhost:11434'. Adjust the API endpoint URL in the script if necessary.
 
-7. Place your corpus text file (new_data.txt) in the project directory.
+8. Place your corpus text file (new_data.txt) in the project directory.
 
 ## Running the Chatbot
 
