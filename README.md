@@ -28,7 +28,8 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
 
 1. Clone the repository:
      ```bash
-     git clone https://github.com/yourusername/retrieval-chatbot.git
+     cd path/to/your/directory
+     git clone https://github.com/RanL703/Retrieval-Augmented-ChatBot.git
      cd retrieval-chatbot
      ```
      
