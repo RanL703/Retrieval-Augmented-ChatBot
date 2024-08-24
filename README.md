@@ -30,7 +30,7 @@ This project is a simple yet powerful chatbot that leverages **Gradio** for the 
      ```bash
      cd path/to/your/directory
      git clone https://github.com/RanL703/Retrieval-Augmented-ChatBot.git
-     cd retrieval-chatbot
+     cd Retrieval-Augmented-ChatBot
      ```
      
 2. Install the required dependencies:
