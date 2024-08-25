@@ -80,12 +80,14 @@ python main.py
 This will launch a Gradio interface in your default web browser. You can enter prompts, and the chatbot will process your input, retrieve relevant information, and generate responses using the combined power of SentenceTransformers for information retrieval and Ollama for natural language generation.
 
 ## Screenshots
-
+The first five screenshots here show the working of the Llama3.1 LLM in a Gradio GUI combined with input pre-processing with NLTK, generation of sentences using SentenceTransformers in a RAG model.
 ![firefox_wll2MD8hAG](https://github.com/user-attachments/assets/43994a6d-faf1-4413-9f5f-2b4e5b0b4eeb)
 ![firefox_hdOrraRZfc](https://github.com/user-attachments/assets/5dccf106-007e-444e-b0a7-02780d8b4712)
 ![firefox_oBo3ZbjrIp](https://github.com/user-attachments/assets/d0d4d67c-40b9-462c-a62a-231fb5de9e18)
 ![firefox_ARJ5F0NQqN](https://github.com/user-attachments/assets/7d64e9df-f8e9-4fa5-8473-ea6a7a916c85)
 ![firefox_ITBV3nuJeJ](https://github.com/user-attachments/assets/93ef9499-962c-45ba-a99b-9c9f412a1485)
+
+This one screenshot culminates everything that has been used in the code. In this one, the Llama3.1 LLM pre-processes the user input with NLTK, retrieval of data through the attached text file then generating sentences using the right information out of the text corpus and converting the sentences using the power of Llama3.1 and SentenceTransformers, in a RAG model.
 ![firefox_aswdCZCcRC](https://github.com/user-attachments/assets/dc980c83-2569-40be-8726-8126e1ed14d1)
 
 ## License
